@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Fuzzy+Bubbles&display=swap');
+
+*,
+*::after,
+*::before {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+section {
+    height: 500px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 15px;
+    background-image: url(/img/Карт.png);
+    padding: 10px;
+    outline: 1px solid rgb(0, 0, 0);
+    color: rgb(251, 251, 251);
+}
+
+h1 {
+    margin: 30px;
+    text-align: center;
+}
+
+img:hover {
+    border: 5px solid rgba(0, 0, 6, 0.547);
+    border-radius: 20px;
+    width: 90%;
+    height: 400px;
+
+
+}
+
+.wrapper {
+    text-align-last: center;
+    background: rgb(153, 163, 163);
+    color: rgb(113, 49, 196);
+    display: inline;
+
+}
+
+body {
+    background: rgb(63, 162, 172);
+    ;
+    ;
+    transition: 5c;
+    text-indent: 5px;
+    text-align: center;
+}
+
+.nav__list {
+    display: inline;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+    color: rgb(247, 253, 253);
+}
